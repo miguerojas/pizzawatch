@@ -11,6 +11,11 @@ import Foundation
 
 
 class InterfaceController: WKInterfaceController {
+    
+    
+    let pequeña="pequeña"
+    let mediana="mediana"
+    let grande="grande"
 
     override func awakeWithContext(context: AnyObject?) {
         super.awakeWithContext(context)
@@ -28,4 +33,22 @@ class InterfaceController: WKInterfaceController {
         super.didDeactivate()
     }
 
+    @IBAction func selpequeña() {
+        tamaño(pequeña)
+        
+    }
+    @IBAction func selmediana() {
+        tamaño(mediana)
+    }
+    
+    @IBAction func selGrande() {
+        tamaño(grande)
+    }
+    func tamaño (opcion: String) {
+        let texto = Seleccion()
+        texto.tamano = opcion
+        pushControllerWithName("Masa", context: texto)
+        print(opcion)
+    
+   }
 }

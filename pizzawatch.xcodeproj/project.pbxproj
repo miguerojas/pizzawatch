@@ -20,6 +20,11 @@
 		49192DCC1CC8110500ABB1B0 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49192DCB1CC8110500ABB1B0 /* ExtensionDelegate.swift */; };
 		49192DCE1CC8110500ABB1B0 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49192DCD1CC8110500ABB1B0 /* NotificationController.swift */; };
 		49192DD01CC8110500ABB1B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49192DCF1CC8110500ABB1B0 /* Assets.xcassets */; };
+		49192DE01CC8172C00ABB1B0 /* Seleccion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49192DDF1CC8172C00ABB1B0 /* Seleccion.swift */; };
+		49192DE21CC8370000ABB1B0 /* Masa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49192DE11CC8370000ABB1B0 /* Masa.swift */; };
+		49192DE41CC83DAD00ABB1B0 /* Queso.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49192DE31CC83DAD00ABB1B0 /* Queso.swift */; };
+		49192DE61CC84BB500ABB1B0 /* ingredientes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49192DE51CC84BB400ABB1B0 /* ingredientes.swift */; };
+		49192DE81CC8505000ABB1B0 /* Confirmacion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49192DE71CC8505000ABB1B0 /* Confirmacion.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +88,11 @@
 		49192DCD1CC8110500ABB1B0 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		49192DCF1CC8110500ABB1B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		49192DD11CC8110500ABB1B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49192DDF1CC8172C00ABB1B0 /* Seleccion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Seleccion.swift; sourceTree = "<group>"; };
+		49192DE11CC8370000ABB1B0 /* Masa.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Masa.swift; sourceTree = "<group>"; };
+		49192DE31CC83DAD00ABB1B0 /* Queso.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Queso.swift; sourceTree = "<group>"; };
+		49192DE51CC84BB400ABB1B0 /* ingredientes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ingredientes.swift; sourceTree = "<group>"; };
+		49192DE71CC8505000ABB1B0 /* Confirmacion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Confirmacion.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,12 +159,17 @@
 		49192DC61CC8110400ABB1B0 /* pizzawatch WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				49192DE31CC83DAD00ABB1B0 /* Queso.swift */,
+				49192DE71CC8505000ABB1B0 /* Confirmacion.swift */,
+				49192DE51CC84BB400ABB1B0 /* ingredientes.swift */,
 				49192DC91CC8110400ABB1B0 /* InterfaceController.swift */,
+				49192DE11CC8370000ABB1B0 /* Masa.swift */,
 				49192DCB1CC8110500ABB1B0 /* ExtensionDelegate.swift */,
 				49192DCD1CC8110500ABB1B0 /* NotificationController.swift */,
 				49192DCF1CC8110500ABB1B0 /* Assets.xcassets */,
 				49192DD11CC8110500ABB1B0 /* Info.plist */,
 				49192DC71CC8110400ABB1B0 /* Supporting Files */,
+				49192DDF1CC8172C00ABB1B0 /* Seleccion.swift */,
 			);
 			path = "pizzawatch WatchKit Extension";
 			sourceTree = "<group>";
@@ -312,8 +327,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				49192DCE1CC8110500ABB1B0 /* NotificationController.swift in Sources */,
+				49192DE41CC83DAD00ABB1B0 /* Queso.swift in Sources */,
 				49192DCC1CC8110500ABB1B0 /* ExtensionDelegate.swift in Sources */,
 				49192DCA1CC8110400ABB1B0 /* InterfaceController.swift in Sources */,
+				49192DE01CC8172C00ABB1B0 /* Seleccion.swift in Sources */,
+				49192DE81CC8505000ABB1B0 /* Confirmacion.swift in Sources */,
+				49192DE21CC8370000ABB1B0 /* Masa.swift in Sources */,
+				49192DE61CC84BB500ABB1B0 /* ingredientes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -546,6 +566,7 @@
 				49192DD61CC8110500ABB1B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		49192DD81CC8110500ABB1B0 /* Build configuration list for PBXNativeTarget "pizzawatch WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -554,6 +575,7 @@
 				49192DDA1CC8110500ABB1B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		49192DDC1CC8110500ABB1B0 /* Build configuration list for PBXNativeTarget "pizzawatch" */ = {
 			isa = XCConfigurationList;
@@ -562,6 +584,7 @@
 				49192DDE1CC8110500ABB1B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
