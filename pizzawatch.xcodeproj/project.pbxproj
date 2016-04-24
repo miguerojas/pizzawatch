@@ -160,6 +160,7 @@
 			isa = PBXGroup;
 			children = (
 				49192DE31CC83DAD00ABB1B0 /* Queso.swift */,
+				49192DDF1CC8172C00ABB1B0 /* Seleccion.swift */,
 				49192DE71CC8505000ABB1B0 /* Confirmacion.swift */,
 				49192DE51CC84BB400ABB1B0 /* ingredientes.swift */,
 				49192DC91CC8110400ABB1B0 /* InterfaceController.swift */,
@@ -169,7 +170,6 @@
 				49192DCF1CC8110500ABB1B0 /* Assets.xcassets */,
 				49192DD11CC8110500ABB1B0 /* Info.plist */,
 				49192DC71CC8110400ABB1B0 /* Supporting Files */,
-				49192DDF1CC8172C00ABB1B0 /* Seleccion.swift */,
 			);
 			path = "pizzawatch WatchKit Extension";
 			sourceTree = "<group>";
