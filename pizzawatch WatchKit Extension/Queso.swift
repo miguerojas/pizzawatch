@@ -21,9 +21,9 @@ class Queso: WKInterfaceController {
         super.awakeWithContext(context)
         self.setTitle("Tipo de Queso")
         
-       // if context != nil {
+        if context != nil {
         valorContexto = context as! Seleccion
-        //}
+        }
     }
     override func willActivate() {
         super.willActivate()

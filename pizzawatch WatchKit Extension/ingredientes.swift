@@ -26,12 +26,12 @@ class Ingredientes: WKInterfaceController {
         super.awakeWithContext(context)
         self.setTitle("Ingredientes")
         
-       //if context != nil {
+       if context != nil {
             
-        //valorContexto =  context as! Seleccion
+        valorContexto =  context as! Seleccion
         
             
-        //}
+        }
     }
     override func willActivate() {
         super.willActivate()

@@ -28,11 +28,11 @@ class Confirmacion: WKInterfaceController {
         self.setTitle("Confirmación")
         cocina.setHidden(true)
         
-      //  if context != nil {
+       if context != nil {
             
-        //valorContexto = context as! Seleccion
+        valorContexto = context as! Seleccion
         
-        //}
+        }
     }
 
     
